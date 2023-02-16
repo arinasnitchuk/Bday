@@ -1,0 +1,33 @@
+.tasks {
+    border: 1px solid green;
+    height: 100vh;
+    @include flex;
+    flex-direction: column;
+
+    .survey {
+        @include flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        label {
+            margin-bottom: 10px;
+            font-family: "montserrat", sans-serif;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+
+            input {
+                width: 23px;
+                height: 23px;
+                margin-right: 10px;
+                accent-color: #0a0094;
+            }
+        }
+    }
+}
+
+.title {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}

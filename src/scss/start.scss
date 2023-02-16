@@ -1,0 +1,25 @@
+main {
+    font-family: "Ubuntu", sans-serif;
+
+    .starting-page {
+        height: 100vh;
+        border: 1px solid red;
+        width: 100%;
+        @include flex;
+
+        #start {
+            height: 100px;
+            width: 50%;
+            background-color: #0a0094;
+            font-size: 1.5rem;
+            color: #fff;
+            font-family: "Ubuntu", sans-serif;
+            border: none;
+            border-radius: 5px;
+
+            &:active {
+                box-shadow: inset 5px 5px 51px #08016b;
+            }
+        }
+    }
+}

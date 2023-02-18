@@ -64,6 +64,7 @@ main .starting-page #start:active {
 .title {
   font-size: 1.3rem;
   margin: 20px 0;
+  text-align: center;
 }
 
 .swiper .swiper-pagination-bullet {
@@ -77,6 +78,33 @@ main .starting-page #start:active {
   padding: 10px;
 }
 .swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.wrapper .container {
+  border: 2px solid #0a0094;
+  border-radius: 5px;
+  text-align: center;
+  width: 130px;
+  height: 430px;
+  overflow: hidden;
+}
+.wrapper .container p {
+  margin: 10px 0;
+}
+.wrapper .container .image-block {
+  width: 100%;
+  height: 200px;
+}
+.wrapper .container .image-block img {
   width: 100%;
   height: 100%;
   object-fit: contain;

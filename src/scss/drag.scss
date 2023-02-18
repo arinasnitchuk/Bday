@@ -1,0 +1,31 @@
+.wrapper {
+    @include flex;
+    gap: 10px;
+
+    .container {
+        border: 2px solid #0a0094;
+        border-radius: 5px;
+        text-align: center;
+        width: 130px;
+        height: 430px;
+        overflow: hidden;
+
+        p {
+            margin: 10px 0;
+        }
+
+
+        .image-block {
+            width: 100%;
+            height: 200px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}
